@@ -1,0 +1,196 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+horn-final
+</name>
+</assembly>
+<members>
+<member name="T:horn_final.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:horn_final.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:horn_final.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:horn_final.frmCustomers.runValidatorVB">
+ <summary>
+ Returns false if any field is blank
+ </summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.CustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.InvoiceLineItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.InvoicesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.OrderOptionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.ProductsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.StatesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.CustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.InvoiceLineItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.InvoicesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.OrderOptionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.ProductsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.StatesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.CustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.InvoiceLineItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.InvoicesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.OrderOptionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.ProductsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSet.StatesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.CustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.InvoiceLineItemsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.InvoicesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.OrderOptionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.ProductsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.StatesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(horn_final.MMABooksDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(horn_final.MMABooksDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(horn_final.MMABooksDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager.UpdateAll(horn_final.MMABooksDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:horn_final.MMABooksDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
